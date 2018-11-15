@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+p,
+h2,
+small {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p strong {
+  font-size: 25px;
+}
+
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.static-header {
+  position: fixed;
+  z-index: 1000;
+  background: white;
+  text-align: center;
+  width: 100%;
+  margin-top: -8px;
+  margin-left: -10px;
+  padding: 10px;
+}
+
+.images {
+  position: absolute;
+  margin-top: 110px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.images img {
+  max-width: 500px;
+}
+
+.images .image-container,
+.images img {
+  height: 350px;
+}
